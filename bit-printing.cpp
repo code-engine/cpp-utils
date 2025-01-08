@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+#include "bit-printing.h"
+
 void printBitArray(char *output, int size, int limit) {
   limit -= 1;
   for(int i = limit; i >= 0; i--) {
